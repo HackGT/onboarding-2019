@@ -1,5 +1,5 @@
 git:
-    remote: https://github.com/HackGT/live-site.git
+    remote: https://github.com/HackGT/onboarding-2019.git
     branch: master
 
 target_port: 80
