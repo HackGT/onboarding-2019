@@ -1,4 +1,12 @@
 #These links will appear in the order they're defined here
+- title: HackGT 6
+  url: https://info.hack.gt/
+- title: HackGT 5
+  url: https://live.fall2018.hack.gt/#
+- title: HackGT 4
+  url: https://live.fall2017.hack.gt/
+- title: BuildGT
+  url: https://live.build.hack.gt/
 - title: HackGT
   url: https://hack.gt
 # Define additional links below

@@ -1,9 +1,5 @@
 ---
-title: Important Links
+title: Some info
 ---
-
-[Check out hardware](https://hardware.hack.gt/) <br>
-[BuildGT Devpost](https://buildgt-2018.devpost.com/) <br>
-[Event Slack](https://buildgt2018.slack.com) <br>
-HackGT Staff: `678-870-4225` <br>
-Campus Police: `404-894-2500`
+Make sure to read [the wiki](https://github.com/HackGT/live-site/wiki) to figure out how to style and add information to your site!
+You can also look at some previous examples of live sites.
