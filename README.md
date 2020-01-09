@@ -56,7 +56,7 @@ That's all you need to build an application in our cluster! Let's discuss deploy
 
 [Beehive](https://github.com/hackgt/biodomes) is our repository for managing deployments of our applications. Each `yaml` file in the repository corresponds to an application hosted on a subdomain of `hack.gt`. For example, `registration.yaml` specifies the file to be hosted on `registration.hack.gt` and `dev/registration.yaml` specifies the application hosted on `registration.dev.hack.gt`. 
 
-To deploy your application, created a `yaml` file with your name in the `onboarding2019/` folder. This will be deployed to `<yourname>.onboarding2019.hack.gt`. In the yaml file, we simply specify the git url and branch of our application.
+To deploy your application, create a `yaml` file with your name in the `onboarding2019/` folder. This will be deployed to `<yourname>.onboarding2019.hack.gt`. In the yaml file, we simply specify the git url and branch of our application.
 
 Create the file `onboarding2019/<yourname>.yaml` with the following content:
 ```yaml
