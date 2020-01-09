@@ -1,6 +1,10 @@
 # Tech Team Onboarding 2019
 Welcome to the HackGT Tech Team! Today you'll learn about our in house deployment system, [Beehive](https://github.com/HackGT/beehive) and how we make our live sites! Make sure that you have [jekyll](https://jekyllrb.com/docs/installation/) installed.
 
+## Step 0, Cloning
+
+Clone the repository to your local machine by running `git clone https://github.com/HackGT/onboarding-2019.git`.
+
 ## Step 1, Branching
 Make a branch of this code named with your first name. 
 
