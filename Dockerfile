@@ -1,4 +1,4 @@
-FROM ruby:2.4.1
+FROM ruby:2.7.0
 WORKDIR /workspace
 ADD . .
 RUN "./docker_resources/build.sh"
