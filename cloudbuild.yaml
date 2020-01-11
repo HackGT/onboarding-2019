@@ -20,7 +20,7 @@ steps:
     - 'BRANCH_NAME=$BRANCH_NAME'
 images:
     - 'gcr.io/$PROJECT_ID/image'
-timeout: 240s
+timeout: 300s
 secrets:
 - kmsKeyName: projects/hackgt-cluster/locations/global/keyRings/hackgt-build/cryptoKeys/hackgt-build-key
   secretEnv:
