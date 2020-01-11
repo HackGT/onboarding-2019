@@ -1,9 +1,7 @@
-FROM ubuntu
-RUN "gem update --system"
-
 FROM ruby:2.4.1
 WORKDIR /workspace
 ADD . .
+RUN "gem update --system"
 RUN "./docker_resources/build.sh"
 
 FROM nginx:stable-alpine
