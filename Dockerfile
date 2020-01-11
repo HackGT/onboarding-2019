@@ -1,5 +1,5 @@
 FROM ubuntu
-RUN eval "$(rbenv init -)"; gem update --system
+RUN "gem update --system"
 
 FROM ruby:2.4.1
 WORKDIR /workspace
