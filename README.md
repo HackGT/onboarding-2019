@@ -13,15 +13,18 @@ On the command line, this can be done with the `git branch` command. For example
 ## Step 2, Personalize your website!
 [Read the wiki](https://github.com/HackGT/live-site/wiki) to learn how to add content to your live site. Our system utilizes *blocks*. In order to edit the content in each block, edit the corresponding markdown file. Use `_event_pages` to edit the navigation of your site. You can also edit the themeing of your website (i.e. font, color, assets, etc.) using the files in `_sass` and `assets`. Look at some of the other branches for inspiration!
 
-## Step 3, Docker!
+## Step 3, View your website!
+Before you start this step, make sure you have Jekyll installed. Jekyll will read the markup that you just wrote and convert it to a real website. To view your website as you develop, run `bundle exec jekyll serve`. This command will give you an address where the website is being hosted on (Usually `http://127.0.0.1:4000/`).
+
+## Step 4, Docker!
 [Docker](docker.com) is a container system for our applications. Each Docker container can be thought of as a lightweight virtual machine, which comes with the application and all it's dependencies built in.
 ### Building
  Docker containers must first be built. The build process is where we specify how to run our application and tell Docker what dependencies to include. At the root directory of each of our repositories is a `Dockerfile`, which uses Docker-specific scripting lanaguage to define how the Docker container is built. There already is a Docker file in this repo from previous deployments, so this is just an fyi
 
-## Step 4, deployment.yaml
+## Step 5, deployment.yaml
 At the root of each of our applications there's a `deployment.yaml`. This contains options related to deployment into our cluster. For now, we only need to specify that our application will be listening on port `80`. This is what the `deployment.yaml` file in the repository does.
 
-## Step 4.5, Push IT!
+## Step 5.5, Push IT!
 
 Now you're ready to get your ducks in a row and push to GitHub!
 
@@ -50,7 +53,7 @@ If your push failed, make sure your in-sync with GitHub by pulling any possibly 
 git pull -r origin <branch name>
 ```
 
-## Step 5, Deployment
+## Step 6, Deployment
 That's all you need to build an application in our cluster! Let's discuss deployment.
 
 
