@@ -5,5 +5,5 @@ left_blocks:
 right_blocks:
     - akshay2.md
 permalink: /akshay
-priority: 3
+priority: 0
 ---
