@@ -1,8 +1,8 @@
 ---
-title: Welcome to Catalyst 2018!
+title: Welcome to my site!
 ---
 
-Hello! We are excited to welcome you to Catalyst 2018! Here's some important information:
+Hello! Welcome to Christopher Lo's website! Here's some important information:
 
 #### Contact Information
 * HackGT Staff: `678-870-4225`
