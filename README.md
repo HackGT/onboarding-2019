@@ -1,3 +1,5 @@
+# Sites are no longer active, reach out to Stephanie with questions
+
 # Tech Team Onboarding 2019
 Welcome to the HackGT Tech Team! Today you'll learn about our in house deployment system, [Beehive](https://github.com/HackGT/beehive) and how we make our live sites! Make sure that you have [jekyll](https://jekyllrb.com/docs/installation/) installed.
 
